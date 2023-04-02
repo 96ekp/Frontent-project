@@ -40,6 +40,14 @@ ul .nav-link {
   z-index: 5000;
   transform: scale(0);
 }
+#show-shopping-cart .btn {
+  width: 100%;
+  border-radius: 100px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  padding: 10px 0;
+  font-weight: 600;
+}
 .cart-active {
   opacity: 1 !important;
   transform: scale(1) !important;
