@@ -11,8 +11,8 @@
     "jsdom": "^21.1.1",
     "leaflet-routing-machine": "^3.2.12",
     "lodash": "^4.17.21",
-    "mongoose": "^7.0.1",
     "mongo": "^0.1.0",
+    "mongoose": "^7.0.3",
     "nodemon": "^2.0.21"
   },
   "scripts": {
