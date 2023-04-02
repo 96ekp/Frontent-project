@@ -3,6 +3,6 @@ services:
   app:
     container_name: DevOpsFinalProject
     restart: always
-    image: saw96/devopsproject:latest
+    image: saw96/newproject:latest
     ports:
       - "8086:8080"
