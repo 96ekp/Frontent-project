@@ -33,11 +33,12 @@ jobs:
           context: .
           push: true
           tags: saw96/devopsproject:latest
-      - name: prepare the docker-compose run
+      - 
+        name: prepare the docker-compose run
         run: |
-          mkdir devopsprojcet
-          cp docker-compose.yml devopsproject/docker-compose.yml
-          cd devopsproject
-          docker-compose -H ${{ secrets.HOST_SERVER }} down
-          docker-compose -H ${{ secrets.HOST_SERVER }} pull
-          docker-compose -H ${{ secrets.HOST_SERVER }} up -d
+              mkdir devopsprojcet
+              cp docker-compose.yml devopsproject/docker-compose.yml
+              cd devopsproject
+              docker-compose -H ${{ secrets.HOST_SERVER }} down
+              docker-compose -H ${{ secrets.HOST_SERVER }} pull
+              docker-compose -H ${{ secrets.HOST_SERVER }} up -d
