@@ -5,4 +5,4 @@ services:
     restart: always
     image: saw96/newproject:latest
     ports:
-      - "8086:8080"
+      - "8086:80"
